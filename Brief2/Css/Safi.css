@@ -1,0 +1,94 @@
+body{
+    font-family: 'Raleway',sans-serif;
+}
+
+.ImageHeader img{
+            filter: brightness(27%);  
+        }
+        .B1{
+            background-color: #038DFE;
+            box-shadow: 0px 8px 15px rgba(0,0,128, 0.4);
+            color: white;
+            font-size: 15px;
+            position: relative;
+            left: 200px;
+            top: -170px;
+            padding: 13px; 
+            border-radius: 20px;
+            width: 250Px;
+            font-family: 'Raleway', sans-serif;
+            text-transform: uppercase;
+            font-weight: 500;
+            transition: all 0.3s ease 0s;
+}
+   .B1:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+  color:gray;
+  transform: translateY(-7px);
+    }
+        
+        .ContenuP2{
+            
+             text-align: center;
+             position: relative;
+             top: 15px;
+            
+        }   
+        
+        .Zone2{
+     background-color: #0A78D3;
+     margin-left: 760px;
+     margin-top: -325px;
+     height: 400px;
+     color: white;
+     
+   
+}
+        .ParaHeader{
+            position: relative;
+            top: -250px;
+            left: 200px;
+            color: white;
+            font-family: sans-serif;
+            font-weight:50;
+            font-size: 30px;
+            
+        }
+
+.Zone2 h1{
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+.Zone2 h3{
+    position: relative;
+    top:60px;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+}
+.Zone2 p{
+    margin-top: 80px;
+    margin-left: 100px;
+    text-align: center;
+    line-height: 1.5em;
+}
+        
+        .GroupS h2{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: #008AFF;
+    font-weight: 20;
+    font-size: 17px;
+    font-family: 'Raleway',sans-serif;
+}
+
+.GroupS h1{
+    color: black;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 30;
+}

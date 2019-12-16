@@ -1,0 +1,458 @@
+body{
+   margin: 0px;
+    background-size: 100%;
+    font-family: 'Raleway',sans-serif;
+    
+}
+
+header{
+    position: fixed; 
+    top: 0;
+    z-index: 1; 
+    background-color: black;
+    height: 70px;
+    width: 100%;
+   
+}
+header a:hover{
+    color: #41B9FE;
+}
+ header img{
+
+    height: 30px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.menu{
+ 
+    margin-top: -20px; 
+    margin-left: 400px;
+   
+}
+
+.menu a
+{
+   
+    font-size: 15px;  
+    padding:20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+button{
+    
+    background-color:#038DFE;
+    box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    margin-top: -10px;
+    padding: 10px; 
+    border-radius: 20px;
+    width: 150px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: up10ercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+  color: #57A9EC;
+  transform: translateY(-7px);
+}
+
+div img{
+    
+  width: 100%;
+  height: 400px;
+  
+
+}
+
+ .ImageHeader p{
+    position: relative;
+    bottom: 300px; 
+    margin-left: 200px;
+    color: white;
+    font-weight:100;
+    
+}
+.Para1{
+    font-size: 30px;
+}
+
+.inputBtn{
+    background-color: Transparent; 
+    box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+    border-color: white;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    left: 200px;
+    top: -300px;
+    padding: 13px; 
+    border-radius: 20px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+    
+}
+button img{
+    width: 20px;
+    height: 20px;
+   
+}
+.inputBtn:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+  color:gray;
+  transform: translateY(-7px);
+}
+
+.B2{
+    background-color: #038DFE;
+    box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+    color: white;
+    font-size: 15px;
+    position: relative;
+    left: 200px;
+    top: -300px;
+    padding: 13px; 
+    border-radius: 20px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+.B2:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+  color:gray;
+  transform: translateY(-7px);
+}
+
+.Contenu{
+  
+    text-align: center;
+    margin-top: -150px;
+}
+.Titre{
+    font-size: 35px;
+    font-weight: 380;
+    font-family: 'Raleway',sans-serif;
+    letter-spacing: 3px;
+}
+.Contenu p{
+    
+font-family: 'Raleway', sans-serif;
+margin-left: 20px;
+line-height: 1.5em;
+    
+}
+.article1 img{
+    
+    height: 30px;
+    width: 40px;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+.article1{
+
+    margin-left: 180px;
+    margin-right: 950px;
+}
+ 
+.article1 p{
+    text-align: center; 
+} 
+
+.article2 img{
+    
+    height: 35px;
+    width: 19px;
+    margin-left: 10px;
+    margin-top: 45px;
+}
+.article2{
+  
+    margin-left: 600px;
+    margin-right: 500px;
+    margin-top: -270px;
+    text-align: center;
+}
+
+
+.article3 img{
+    
+    height: 40px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+.article3{
+ 
+    margin-left: 910px;
+    margin-top: -400px;
+    text-align: center;
+}
+
+.Contenu2 img{
+    width: 50%;
+    position: relative;
+    top: 100px;
+}
+
+ .Zone1{
+     background-color: #0A78D3;
+     margin-left: 760px;
+     margin-top: -325px;
+     height: 400px;
+     color: white;
+   
+}
+
+.Zone1 h1{
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+.Zone1 h3{
+    position: relative;
+    top:60px;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+}
+.Zone1 p{
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: left;
+    line-height: 1.5em;
+}
+.Contenu3{
+    margin-top: 130px;
+}
+
+.Contenu3 h2{
+    position: relative;
+    top: -220px;
+    text-align: center;
+    color: #008AFF;
+    font-weight: 20;
+    font-size: 17px;
+    font-family: 'Raleway',sans-serif;
+}
+
+.Contenu3 h1{
+    color: white;
+    margin-top: -220px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 30;
+}
+.Contenu4{
+  background-color: #008AFF;
+  position: relative;
+  top: -10px;
+  height: 260px;
+}
+
+
+.Contenu4 h1{
+    color: white;
+    font-size: 45px;
+    position: relative;
+    top: 80px;
+    margin-left: 150px;
+    
+}
+
+.Contenu4 p{
+    color: white;
+    font-size: 28px;
+    font-weight: 100;
+    font-family:'Raleway', sans-serif;
+    position: relative;
+    top: 85px;
+    margin-left: 70px;
+}
+
+.Part2 {
+    margin-top: -150px;
+    margin-left: -200px;
+    text-align: center;
+   
+}
+
+.Part3 {
+    margin-top: -180px;
+    margin-left: 950px;
+    text-align: center;
+   
+}
+.Part3 p {
+    margin-top: -12px;
+}
+.ligne_verticale
+{
+    width:5px;
+    border-left:2px solid black;
+    height:70px;
+}
+.vertical-line{
+        position: absolute;
+        border-left: 1.5px dotted #000;
+        height: 140px;
+        margin-left: 450px;
+        margin-top: -50px;
+}
+
+.vertical-line2{
+        position: absolute;
+        border-left: 1.5px dotted #000;
+        height: 140px;
+        margin-left: 990px;
+        margin-top: -90px;
+}
+
+.LastPara{
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+.LastPara p{
+      line-height: 2em;
+       font-size: 20px; 
+       color: dimgrey;
+}
+
+.OCP{
+    text-align: center;
+    margin-top: 200px;  
+    
+}
+.OCP img{
+    height: 80px;
+    width: 80px;
+}
+.Inscris{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.Inscris p{
+    font-size: 35px;
+    font-weight: 380;
+    font-family: 'Raleway',sans-serif;
+    letter-spacing: 3px;
+     
+    
+}
+.Inscris button{
+    
+    background-color:#038DFE;
+    box-shadow: 0px 3px 50px #4A92CC;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    position: relative;
+    top: -47px;
+    margin-left: 600px;
+    padding: 10px; 
+    border-radius: 20px;
+    width:510px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: up10ercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+
+.Inscris button:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+  color: black;
+  transform: translateY(-7px);
+}
+
+footer{
+    height: 80px;
+    background-color: black;
+}
+
+.contacter p{
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    color: dimgrey;
+    font-size: 15px;
+}
+
+.contacter img{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    top: -1px;
+    left: 20px;
+} 
+
+.contacter a{
+    margin-left: 25px;
+    position: relative;
+    top: -1px;
+    color: #347AB1;
+}
+
+.center{
+    color: gray;
+    text-align: center;
+    position:relative;
+    top: -20px;
+}
+
+.RS{
+    text-align: right;
+    color: gray;
+    position:relative;
+    top: -80px;
+    right: 30px;
+}
+
+.iconsfRS img {
+    width: 10px;
+    height: 20px;
+    margin-right: 25px;
+}
+.iconsfRS{
+    margin-right: 30px;
+}
+.iconsfRS .ImageT{
+    width: 15px;
+}
+.B1{
+    background-color: #038DFE;
+    box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+    color: white;
+    font-size: 15px;
+    position: relative;
+    left: 200px;
+    top: -300px;
+    padding: 13px; 
+    border-radius: 20px;
+    width: 200px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+.B1:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+  color:gray;
+  transform: translateY(-7px);
+}

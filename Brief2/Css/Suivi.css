@@ -1,0 +1,121 @@
+        .ImageHeader img{
+            
+          filter: brightness(45%); 
+        }
+        
+        .B3{
+           background-color: #038DFE;
+           box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+           color: white;
+           font-size: 15px;
+           position: relative;
+           left: 200px;
+           top: -250px;
+           padding: 13px; 
+           border-radius: 20px;
+           width: 300px;
+           font-family: 'Raleway', sans-serif;
+                        
+           font-weight:100;
+           text-transform: uppercase;
+           font-weight: 500;
+           transition: all 0.3s ease 0s;
+}
+.B3:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+  color:gray;
+  transform: translateY(-7px);
+}
+        .Para1{
+            font-size: 25px;
+            line-height: 1.5em;
+        }
+        
+        h1{
+            text-align: center;
+            color: #4D4949;
+            position: relative;
+            top: -100px;
+        }
+        
+        .Recherche img{
+            
+            float: right;
+            width: 10px;
+            height: 20px;
+            margin-top: -1px;
+            margin-right: 500px;
+        }
+        
+        .TXT{
+            
+            color: gris;
+            position: relative;
+            left: 1022px;
+        }
+   
+        
+        
+         .B4{
+           background-color: #038DFE;
+           box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+           color: white;
+           font-size: 15px;
+           position: relative;
+           left: 1130px;
+           top: 0px;
+           margin-top: 70px;
+           padding: 13px; 
+           border-radius: 20px;
+           width: 250px;
+           font-family: 'Raleway', sans-serif;
+           text-transform: uppercase;
+           font-weight: 500;
+           transition: all 0.3s ease 0s;
+}
+.B4:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+  color:gray;
+  transform: translateY(-7px);
+}
+     
+        
+ table {
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  
+  
+}
+
+tr:hover {
+    background-color:#f5f5f5;
+        }
+        
+        
+.GroupS h2{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    color: #008AFF;
+    font-weight: 20;
+    font-size: 17px;
+    font-family: 'Raleway',sans-serif;
+}
+
+.GroupS h1{
+    color: black;
+    margin-top: 300px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 30;
+}
