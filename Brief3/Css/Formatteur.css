@@ -1,0 +1,113 @@
+
+ .ImageHeader h1{
+    margin-left: 50px;
+    margin-top: -200px;
+    color: white;
+    font-weight:100;
+    
+}
+       .BB{
+    background-color: #038DFE;
+    box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+    color: white;
+    font-size: 15px;
+    padding: 13px; 
+    border-radius: 20px;
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    left:45px;
+    top: 20px;
+    
+}
+.BB:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+  color:gray;
+  transform: translateY(-7px);
+}
+                
+.Recherche{
+    display: flex;
+    float: right;
+    margin-top: 10px;
+          }
+.Recherche img{
+    width: 15px;
+    height: 20px;
+          }
+          .GroupS h2{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: #008AFF;
+    font-weight: 20;
+    font-size: 17px;
+    font-family: 'Raleway',sans-serif;
+}
+ table {
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color:#f5f5f5;
+}
+.bas{
+     display: flex;
+     justify-content: center;
+}
+.GroupS button {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.GroupS h1{
+    color: black;
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 30;
+}
+
+@media screen and (max-width:800px) {
+     .ImageHeader h1{
+    margin-left: 50px;
+    margin-top: -300px;
+    color: white;
+    font-weight:100;
+    
+}
+.BB{
+    margin-left: -6px;
+              }
+    
+.Recherche{
+    float: none;
+    justify-content:center;
+          }
+ table {
+  border-collapse: collapse;
+  width: 3%;
+  margin-left: 15px;
+  margin-top: 20px;
+  font-size: 10px;
+}
+    th, td {
+  padding: 2px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+        
+          }

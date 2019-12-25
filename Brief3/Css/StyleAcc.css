@@ -1,0 +1,599 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Raleway',sans-serif;  
+    
+            }
+.header{
+ height: 10%;
+ background:black;
+ color: #fff;
+ position: fixed; 
+ z-index: 1; 
+ width: 100%;
+
+}
+.header a:hover{  
+color: #41B9FE;   
+}
+
+.header img{
+height: 50%;
+margin-top: 10px;
+margin-left: 50px;
+}
+.menu{
+ display: flex;
+ flex-direction : row;
+ margin-left: 300px;
+ margin-top: -10px;
+ }
+        
+.menu a{
+color: #fff;
+text-transform: uppercase;
+text-decoration: none;
+padding: 0 15px;
+        }
+.show-menu-btn,.hide-menu-btn{
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.show-menu-btn{
+ float: right;
+}
+.show-menu-btn i{
+  line-height: 100px;
+}
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+  color: #038DFE;
+}
+
+#chk{
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
+
+.content{
+  padding: 0 20px;
+}
+.content img{
+  width: 100%;
+  max-width: 700px;
+  margin: 20px 0;
+}
+.content p{
+  text-align: justify;
+}
+
+button{
+    
+    background-color:#038DFE;
+    box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    margin-top: -10px;
+    padding: 10px; 
+    border-radius: 20px;
+    width: 150px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: up10ercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+  color: #57A9EC;
+  transform: translateY(-7px);
+}
+
+  .ImageHeader img {
+      width: 100%;
+      height: 400px;
+    }
+
+.ImageHeader .Para1{
+    font-size: 30px;
+    margin-top: -200px; 
+    
+}
+
+ .ImageHeader p{
+  
+
+    margin-left: 200px;
+    color: white;
+    font-weight:100;
+    
+}
+
+.inputBtn{
+    background-color: Transparent; 
+    box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+    border-color: white;
+    color: white;
+    font-size: 15px;
+    margin-left: 200px;
+    margin-top: 10px;
+    padding: 13px; 
+    border-radius: 20px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.inputBtn:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+  color:gray;
+  transform: translateY(-7px);
+}
+
+.B2{
+    background-color: #038DFE;
+    box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+    color: white;
+    font-size: 15px;
+    padding: 13px; 
+    border-radius: 20px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+.B2:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+  color:gray;
+  transform: translateY(-7px);
+}
+
+.Contenu{
+    text-align: center; 
+    margin-top: 150px;
+    
+}
+
+.Titre{
+    font-size: 35px;
+    font-weight: 380;
+    font-family: 'Raleway',sans-serif;
+    letter-spacing: 3px;
+}
+.Contenu p{
+    
+font-family: 'Raleway', sans-serif;
+margin-top: 20px;
+margin-left: 20px;
+line-height: 1.5em;
+    
+}
+.box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.article2 img{
+    width: 5% !important ;
+}
+
+.box img{
+    width: 10%;
+}
+.box div{
+    padding: 10px;
+}
+.box h1{
+    margin-bottom: 5px;
+}
+.Contenu2{
+    display: flex;
+    margin-top: 50px;
+
+   
+}
+.Contenu2 img{
+    width: 50%;
+}
+.Zone1 {
+    background: #0A78D3;
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+.Zone1 h1{
+  margin-top: 20px;
+}
+.Zone1 h3{
+    margin-top: 40px;
+    font-weight: 100;
+    font-size: 20px;
+   
+}
+.Zone1 p{
+    margin-top:  30px;
+    margin-left: 100px;
+    text-align: left;
+    line-height: 1.5em;
+}
+.Contenu3 img{
+    width: 100%;
+    height: 40%;
+    margin-top: 100px;
+} 
+
+.Contenu3 h2{
+    
+    position: relative;
+    top: -200px;
+    text-align: center;
+    color: white;
+}
+.Contenu3 h1{
+    
+    position: relative;
+    top: -200px;
+    text-align: center;
+    color: #008AFF;
+}
+.Contenu4
+{
+    display: flex;
+    height: 150%;
+    margin-top: -70px;
+    background: #008AFF;
+    color: white;
+    justify-content: space-between;
+}
+
+.Part1 {
+    margin-top: 80px;
+    text-align: center;
+}
+.Part2 {
+    margin-top: 80px;
+    text-align: center;
+    
+   
+}
+.Part3{
+  margin-top: 80px;
+  text-align: center;
+  
+}
+.Part2 div {
+    margin-left: -13px;
+}
+.Part3 div {
+    margin-left: -13px;
+}
+.vertical-line{
+        border-left: 1.5px dotted #000;
+        height: 130px;
+        position: relative;
+        top: -50px;
+      
+}
+.LastPara{
+    margin-top: 60px;
+}
+
+.LastPara p{
+       line-height: 2em;
+       font-size: 20px; 
+       color: dimgrey;
+}
+    .OCP{
+    text-align: center;
+    margin-top: 200px;  
+    
+}
+.OCP img{
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+}
+
+.Inscris{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 100px;
+    justify-content: center;
+}
+.InP p{
+    font-size: 30px;
+    font-weight: 380;
+    letter-spacing: 3px;
+}
+.BtnI button{
+    
+    background-color:#038DFE;
+    box-shadow: 0px 3px 50px #4A92CC;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    float: right;
+    padding: 10px; 
+    border-radius: 20px;
+    width:250px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: up10ercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+
+.Inscris button:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+  color: black;
+  transform: translateY(-7px);
+}
+
+footer{
+    width: 100%;
+    height:100%;
+    background-color: black;
+}
+ .contacter{
+    margin-top: 10px;
+}
+.contacter p{
+    color: dimgrey;
+    font-size: 15px;
+}
+.contacter img{
+    height: 10px;
+    width: 10px;
+} 
+.contacter a{
+    color: #347AB1;
+}
+
+.center p{
+    color: gray;
+    text-align: center;
+    
+}
+
+.RS{
+    text-align: right;
+    color: gray;
+    position:relative;
+    top: -50px;
+}
+
+.iconsfRS img {
+    width: 10px;
+    height: 20px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:800px) {
+  .show-menu-btn,.hide-menu-btn{
+    display: block;
+  }
+  .menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #038DFE;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 80px 0;
+    line-height: normal;
+    transition: 0.7s;
+    flex-flow: column wrap;
+  }
+  .menu a{
+    display: block;
+    padding: 20px;
+  }
+  .hide-menu-btn{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  #chk:checked ~ .menu{
+    right: 0;
+  }
+    .menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+  color:black;
+}
+    button{
+    
+    background-color:white;
+    box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+    color: black;
+    font-size: 15px;
+    border: 0px;
+    margin-top: -10px;
+    padding: 10px; 
+    border-radius: 20px;
+    width: 150px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: up10ercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: black;
+  box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+  color: white;
+  transform: translateY(-7px);
+}
+.ImageHeader .Para1{
+    font-size: 20px;
+    margin-top: -300px; 
+    
+}
+
+ .ImageHeader p{
+    margin-left: 50px;
+    
+}
+  .inputBtn{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    }
+    
+    .B2{
+      margin-left: 50px;
+      margin-top: 20px;
+       }
+    .Contenu{
+        margin-top: 200px;
+    }
+    
+    .box {
+        display: block;
+    }
+    .Contenu2{
+    flex-direction: column;
+}
+    .Contenu2 img{
+    width: 100%;
+}
+    .Zone1{
+        width: 100%;
+        height: 70%;
+    }
+    .Zone1 h1{
+      font-size: 20px;
+}
+    .Zone1 h3{
+        font-size: 15px;
+    }
+    .Zone1 p{
+        margin-left: 10px;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+.Contenu3 img{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+} 
+
+.Contenu3 h2{
+    
+    position: relative;
+    top: -100px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.Contenu3 h1{
+    
+    position: relative;
+    top: -100px;
+    text-align: center;
+    color: #008AFF;
+    font-size: 20px;
+    
+}
+.Contenu4
+{
+    display: block;
+    margin-top: -140px;
+    height: 500px;
+    justify-content: center;
+}
+.Contenu4 div
+{
+   text-align: center;
+   position: relative;
+   top: 40px;
+
+}
+    .Contenu4 .Part3
+{
+   margin-top: -10px;
+
+}
+    .vertical-line{
+        visibility: hidden;
+    }
+.LastPara{
+        margin-left: 15px;
+        text-align: center;
+    }
+.LastPara p{
+      font-size: 15px; 
+      line-height: 2em;
+      color: dimgrey;
+}
+.OCP{
+    text-align: center;
+    margin-top: 30px;  
+    
+}
+    .OCP p{
+        font-size: 17px;
+    }
+.OCP img{
+    height:7%;
+    width: 15%;
+    margin-top: 50px;
+}
+    .Inscris{
+        display: block;
+        text-align: center;
+    }
+    .InP p{
+        font-size: 17px;
+        text-align: center;
+    }
+    .BtnI button{
+    background-color:#038DFE;
+    box-shadow: 0px 3px 50px #4A92CC;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    float: none;
+    padding: 10px; 
+    margin-top: 20px;
+    border-radius: 20px;
+    width:250px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: up10ercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+    footer{
+        height: 100%;
+    }
+    .contacter{
+        text-align: center;
+    }
+    .center{
+        margin-top: 50px;
+    }
+    .RS{
+        margin-top: 80px;
+        text-align: center;
+    }
+}

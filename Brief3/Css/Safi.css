@@ -1,0 +1,59 @@
+ .ImageHeader p{
+    margin-left: 300px;
+    color: white;
+    font-weight:100;
+    
+    }
+        .BB2{
+    background-color: #038DFE;
+    box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+    color: white;
+    font-size: 15px;
+    padding: 13px; 
+    border-radius: 20px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    left: 200px;
+    top: 20px;
+    
+}
+.BB2:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+  color:gray;
+  transform: translateY(-7px);
+}
+         .GroupS h2{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: #008AFF;
+    font-weight: 20;
+    font-size: 17px;
+    font-family: 'Raleway',sans-serif;
+}
+
+.GroupS h1{
+    color: black;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 30;
+}
+
+@media screen and (max-width:800px) {
+    
+    .ImageHeader p{
+       
+        visibility: hidden;
+    }
+    .BB2{
+        margin-top: 50px;
+        position: relative;
+        left: 100px;
+    }
+}
